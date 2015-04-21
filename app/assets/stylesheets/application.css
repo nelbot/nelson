@@ -14,6 +14,7 @@
  *= require_self
  */
 
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round:400,700);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -109,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align:center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 800px;
+  min-height: 760px;
   width: 100%;
   
     -webkit-background-size: 100%;
@@ -237,10 +238,18 @@ h1, h2, h3, h4, h5, h6 {
   .name {
     margin-left: 700px;
   }
+
+  .three {
+    margin-left: 700px;
+  }
 }
 
 @media (min-width: 1650px) and (max-width: 1800px) {
   .name {
+    margin-left: 650px;
+  }
+
+  .three {
     margin-left: 650px;
   }
 }
@@ -249,10 +258,19 @@ h1, h2, h3, h4, h5, h6 {
   .name {
     margin-left: 600px;
   }
+
+  .three {
+    margin-left: 600px;
+  }
+
 }
 
 @media (min-width: 1000px) and (max-width: 1205px) {
   .name {
+    margin-left: 480px;
+  }
+
+  .three {
     margin-left: 480px;
   }
 }
@@ -261,15 +279,21 @@ h1, h2, h3, h4, h5, h6 {
   .name {
     margin-left: 0px;
   }
+
+  .three {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 600px) {
   .name {
     margin-left: 0px;
   }
+
+  .three {
+    margin-left: 0px;
+  }
 }
-
-
 
 
 .p1 {
@@ -305,5 +329,8 @@ h1, h2, h3, h4, h5, h6 {
 
   #headerwrap {
     min-height: 600px;
+    padding-top: 200px;
   }
 }
+
+
