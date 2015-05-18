@@ -18,44 +18,119 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid copy-section">
     <div class="row centered mt mb">
+      <h1 class="about">About</h1>
       <div class="col-lg-8 col-lg-offset-2">
         <div class="p1">
         <p>I'm a Front End Web Developer that recently completed a unique learning experience at IronHack Web Development Bootcamp. There I began my lifelong journey into learning exciting technologies such as Ruby on Rails and JavaScript. Prior to this I created websites for my clients using Wordpress.</p>
         </div>
-        <div class="p3">
+        <div class="p2">
         <p>I currently live in Miami, FL but it's easy for me to call anywhere home. I am a believer in less is more and follow the tenets of minimalism in both my design and lifestyle. When I'm not sharpening my skills you can find me enjoying the beach with friends, reading a good book or chasing live music experiences.</p>
+        </div>
+        <div class="p3">
+        <p>You can see some of my recent work below. I enjoy learning from other so if you would like to meet up over some beer or coffee, reach out to me below.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <section id="works"></section>
-  <div class="container-fluid">
-    <div class="row centered mb">
-      <h1>Recent Work</h1>
-      
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="http://oghcpa.com/"><%= image_tag("oghcpa-portfolio-copy.png", class: "img-responsive") %></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="http://cubargiejoe.com/"><%= image_tag("cubargie-portfolio-copy.png", class: "img-responsive") %></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="http://theprestigeinstitute.com/"><%= image_tag("prestigeinstitute-portfolio-copy.png", class: "img-responsive") %></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="http://hashmoney.co/"><%= image_tag("hashmoney-portfolio-copy.png", class: "img-responsive") %></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="http://jamroom.io/"><%= image_tag("jamroom-portfolio-copy.png", class: "img-responsive") %></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href=""><%= image_tag("ifthencommit-portfolio-copy.png", class: "img-responsive") %></a>
-      </div>
-    </div>
-  </div>
+   <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://oghcpa.com/" class="portfolio-box">
+                        <%= image_tag("oghcpa-portfolio-copy.png", class: "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Wordpress
+                                </div>
+                                <div class="project-name">
+                                    OGHCPA - Accounting Firm
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://cubargiejoe.com/" class="portfolio-box">
+                        <%= image_tag("cubargie-portfolio-copy.png", class: "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Wordpress
+                                </div>
+                                <div class="project-name">
+                                    CubargieJoe - Law/Politics Blog
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://theprestigeinstitute.com/" class="portfolio-box">
+                        <%= image_tag("prestigeinstitute-portfolio-copy.png", class: "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Wordpress
+                                </div>
+                                <div class="project-name">
+                                    The Prestige Institute - Plastic Surgery
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://hashmoney.co/" class="portfolio-box">
+                        <%= image_tag("hashmoney-portfolio-copy.png", class: "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Ruby on Rails
+                                </div>
+                                <div class="project-name">
+                                    HashMoney - Marketplace for Brands & Influencers
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://jamroom.io/" class="portfolio-box">
+                        <%= image_tag("jamroom-portfolio-copy.png", class: "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Ruby on Rails
+                                </div>
+                                <div class="project-name">
+                                    Jamroom - Landing page for local music discovery app
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <%= image_tag("ifthencommit-portfolio-copy.png", class: "img-responsive") %>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Ruby on Rails
+                                </div>
+                                <div class="project-name">
+                                    IfThenCommit - Make sure you follow through by posting tweets everyone can see
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
   
   <div id="social">
     <div class="container">
