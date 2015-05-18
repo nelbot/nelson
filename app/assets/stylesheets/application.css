@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social i:hover {
-  color: #eb3552;
+  color: #000000;
 }
 
 #footerwrap {
@@ -282,8 +282,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     text-align: center;
     color: #fff;
-    opacity: 0; 
-    background: rgba(235, 53, 82, .9);
+    opacity: 0;
+    background: rgba(47, 47, 47, .9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -339,6 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .copy-section {
   background-color: rgb(242, 242, 242);
+  padding-bottom: 40px;
 }
 
 .copy-section .about {
